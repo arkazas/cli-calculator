@@ -2,9 +2,9 @@
   <img src="https://cdn4.vectorstock.com/i/1000x1000/18/78/detective-cute-calculator-character-cartoon-vector-18401878.jpg" alt="CLI calculator">
 </p>
 
-cli-calculator is an open source project for use in your Unix cli environment.
-
-Sounds boring. Let's try again.
+cli-calculator is an open-source project for use in your Unix CLI environment.
+For now, calculator accept to cooperate to get data only from CLI, but we will plan to 
+extend our application to get data from WebSockets and files.
 
 ## Getting Started
 
@@ -28,19 +28,19 @@ cli-calculator will be installed by cloning git repository on your computer.
 ```
 git@github.com:arkazas/cli-calculator.git
 ```
-2. Go to project directory
+2. Go to the project directory
 
 ```
 cd cli-calculator
 ```
 
-2. Install dependencies and generate autoloading map
+3. Install dependencies and generate an autoloading map
 
 ```
 composer install
 ```
 
-Congratulation! You are successfully install project on your local env.
+Congratulation! You successfully install the project on your local env.
 
 ### How to use
 
@@ -50,6 +50,8 @@ It's totally simple to use. You just need to run one command:
 php run.php
 ```
 
-If during of use program you will wish to leave - you may use `Ctrl+D` or just type `q` and `Enter`, and program will close
+### Hotkeys
+
+If during of use program you will wish to leave - you may use `Ctrl+D` or just type `q` and `Enter`, and the program will close
  
 If you wish to clear all calculated data - just type `c` and `Enter`
